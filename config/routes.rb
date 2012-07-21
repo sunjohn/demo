@@ -1,7 +1,11 @@
 Demo::Application.routes.draw do
-  get "stastic_pages/home"
+  get "static_pages/home"
 
-  get "stastic_pages/help"
+  get "static_pages/help"
+
+  get "static_pages/about"
+
+  get "static_pages/contact"
 
   get "stastic_pages/about"
   
