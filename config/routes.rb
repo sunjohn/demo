@@ -1,4 +1,11 @@
 Demo::Application.routes.draw do
+  get "stastic_pages/home"
+
+  get "stastic_pages/help"
+
+  get "stastic_pages/about"
+  
+  get "stastc_pages/contact"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
